@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="jumbotron jumbotron-fluid">
-        <h3 class="display-3">Product Cart</h3>
+        <h3 class="display-3">PIRKINIU KREPŠELIS</h3>
     </div>
 
     <div class="product-form">

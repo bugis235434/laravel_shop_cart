@@ -1,7 +1,7 @@
 <div class="row" style="margin-bottom: 5px;">
     <div class="col-md-2">Label</div>
     <div class="col-md-1">priority</div>
-    <div class="col-md-1">Status</div>
+    <div class="col-md-1">Statusas</div>
     <div class="col-md-1"></div>
     <div class="col-md-1"></div>
 </div>

@@ -8,7 +8,7 @@
         <div class="col-md-5">
             <h4>{{$product['name']}}</h4>
             <p>{{$product['description']}}</p>
-            <button class="btn btn-link" name="delete{{$product['id']}}" value="{{$product['id']}}">Remove
+            <button class="btn btn-link" name="delete{{$product['id']}}" value="{{$product['id']}}">Ištrinti
             </button>
         </div>
         <div class="col-md-2 form-group">

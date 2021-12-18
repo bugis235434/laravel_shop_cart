@@ -18,7 +18,7 @@
         </div>
         <div class="col-sm-1" style="padding-top: 7px;">
             <button class="btn btn-xs btn-default" type="button" id="removeProperty" data-value="{{$property->id}}" data-product_id="{{$product->id}}" data-toggle="confirmation-singleton">
-                remove
+                ištrinti
             </button>
         </div>
     </div>

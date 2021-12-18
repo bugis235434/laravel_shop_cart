@@ -17,7 +17,7 @@
                 {{ method_field('DELETE') }}
                 {{ csrf_field() }}
                 <button class="btn btn-xs btn-default"  type="submit" data-toggle="confirmation-singleton">
-                    remove
+                    ištrinti
                 </button>
             </form>
         </div>

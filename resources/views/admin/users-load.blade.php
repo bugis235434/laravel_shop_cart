@@ -9,7 +9,7 @@
         <div class="col-md-2">{{$user->name}}</div>
         <div class="col-md-2">{{$user->email}}</div>
         <div class="col-md-1"><a href="{{ url('/admin/edit-user/'.$user->id) }}">edit</a></div>
-        <div class="col-md-1"><a href="#">Oreders</a></div>
+        <div class="col-md-1"><a href="#">pirkiniai</a></div>
         <div class="col-md-1">
             <form name="clearCart" method="POST" action="{{ route('cart.delete') }}">
                 {{ csrf_field() }}

@@ -27,10 +27,10 @@
                     <ul class="nav navbar-nav navbar-right general-nav">
                         <!-- Authentication Links -->
                         @guest
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ route('login') }}">Prisijungti</a></li>
+                            <li><a href="{{ route('register') }}">Registruotis</a></li>
                             @else
-                            <li><a href="/orders" target="_blank">Orders</a></li>
+                            <li><a href="/orders" target="_blank">Pirkiniai</a></li>
                                 <nav-cart :cart="@if (session()->has('cartProducts')) {{json_encode(session('cartProducts'))}} @else {{json_encode([])}} @endif">
                                 </nav-cart>
 
@@ -43,7 +43,7 @@
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
                                             <a onclick="document.getElementById('logout-form').submit();" style="cursor: pointer">
-                                                Logout
+                                                Atsijungti
                                             </a>
                                         </li>
                                     </ul>

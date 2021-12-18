@@ -5,7 +5,7 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h3 class="display-3">Shop</h3>
+            <h3 class="display-3">FIGŪRU PASAULIS</h3>
         </div>
     </div>
     <div class="row product-list">

@@ -7,7 +7,7 @@
 @section('content')
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h3 class="display-3">Orders</h3>
+            <h3 class="display-3">Pirkiniai</h3>
         </div>
     </div>
     <div class="row" style="margin-bottom: 20px;">
